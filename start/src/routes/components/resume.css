@@ -1,0 +1,74 @@
+.resume{
+    background-color: white;
+    color: black;
+    max-width:800px;
+    margin:60px auto;
+    height:100%;
+    padding:20px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    margin-bottom: 10px;
+}
+.head h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile{
+    width:200px;
+    height: 200px;
+    margin:25px auto;
+    overflow: hidden;
+    border-radius: 500%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lside{
+    flex:1;
+    padding:30px ;
+}
+.lside p{
+  line-height: 2;
+}
+
+.lside ul li{
+    line-height: 2;
+}
+
+.lside h2{
+    background-color: hotpink;
+    padding: 15px;
+    color:yellow;
+    margin:30px 0;
+    border-radius:0 20px 20px 0;
+    font-size: 20px;
+}
+
+.rside{
+    flex:1;
+    padding: 30px;
+}
+.rside h4{
+  margin-bottom: 15px;
+}
+.rside p{
+    line-height: 1;
+}
+.rside .one{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.rside h2{
+     background-color: hotpink;
+    padding: 15px;
+    color:yellow;
+    margin:30px 0;
+    border-radius: 0 20px 20px 0;
+    font-size: 20px;
+}
